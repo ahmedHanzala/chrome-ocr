@@ -1,4 +1,8 @@
  <h1>Image to Text Chrome Extension</h1>
+ <a href="LICENSE">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
+</a>
+
   <p>
     The Screen to Text Chrome Extension is a simple yet powerful tool that allows users to capture screenshots of their screens and convert the captured images into text. With this extension, users can easily extract text from images and save time on manual transcription or typing.
   </p>
@@ -39,24 +43,28 @@ to the tesseract model, i have merely peiced different things to make this exten
   </ol>
   
   <h2> How To Use </h2>
-  <div style="display: grid; grid-template-columns: repeat(2, 1fr);grid-gap: 20px;">
+  <div>
+ <h3>Step 1: Click on the extension</h3>
     <div>
-      <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/e0489166-d953-4a97-9d29-d23f7f50af57" alt="Usage Example 1">
+      <img style="width: 70%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/e0489166-d953-4a97-9d29-d23f7f50af57" alt="Usage Example 1">
     </div>
  <div style="display:flex">
+   <h3>Step 2: Select Area you want to OCR</h3>
     <div>
-      <img style="max-width: 50%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/d503ddee-84ed-4b5c-8dff-79180c7f4763" alt="Usage Example 2">
+      <img style="width: 70%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/d503ddee-84ed-4b5c-8dff-79180c7f4763" alt="Usage Example 2">
     </div>
+   <h3>Step 3: You can either Copy image using "copy" or Copy Text (OCR) using "Copy Text" button</h3>
     <div>
-      <img style="max-width: 50%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/a356ce1b-0009-4bd2-8a42-fde50baea592" alt="Usage Example 3">
+      <img style="width: 70%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/a356ce1b-0009-4bd2-8a42-fde50baea592" alt="Usage Example 3">
     </div>
  </div>
+  <h3>Step 4: Copied to clipboard</h3>
     <div>
-      <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/1de1ee47-c136-41be-b53e-8222a04d6abd" alt="Usage Example 4">
+      <img style="width: 70%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/1de1ee47-c136-41be-b53e-8222a04d6abd" alt="Usage Example 4">
     </div>
   <h2>Contributing</h2>
   <p>
-    Contributions to the Screen to Text Chrome Extension are welcome! If you have any ideas, bug reports, or feature requests, please submit them as issues or create a pull request on the GitHub repository.
+   This code has been sitting with me for a year now and i kept forgetting to make a repo of this. Contributions to the Extension are welcome! If you have any ideas, bug reports, or feature requests, please submit them as issues or create a pull request on the GitHub repository. 
   </p>
 
   <h2>License</h2>
