@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "/js/background.js" , "/js/tesseract.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "loader.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "/css/share-modal.css" ],
+      "js": [ "/js/lib/jquery-3.2.1.min.js", "/js/contentScript.js", "/js/share-modal.js" , "/js/tesseract.min.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "loader.png"
+   },
+   "manifest_version": 2,
+    "name": "Image To Text",
+    "version": "1.0",
+   "offline_enabled": true,
+   "permissions": [ "\u003Call_urls>", "storage", "unlimitedStorage" ],
+   "short_name": "__MSG_short_name__",
+   "web_accessible_resources": [ "/css/injectable.css", "editor.html" ]
+}

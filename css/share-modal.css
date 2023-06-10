@@ -1,0 +1,84 @@
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.tui-image-editor-header-logo {
+    padding-top: 8px !important;
+}
+
+.xxflex-container {
+    z-index: 99999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.xxdialog {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    border-radius: 10px;
+    width: 250px;
+    background:rgba( 220, 220, 220);
+}
+.xxdialog-header {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border-bottom: rgb(180, 180, 180) solid 1px
+
+}
+
+.xxdialog-content {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 10px
+
+}
+
+.xxdialog-button a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2e7cf1;
+    border-top: rgb(180, 180, 180) solid 1px;
+}
+
+.xxdialog-button a:last-child {border-bottom-left-radius: 10px;border-bottom-right-radius: 10px
+}
+
+.xxdialog-button .cancel {
+    font-weight: 700;
+
+}
+
+.xxdialog-button a:hover {
+    background: rgb(180, 180, 180);
+
+}
+
+.xxflex-container p {
+    line-height: 22px;
+
+}
+
