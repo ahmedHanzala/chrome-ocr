@@ -39,27 +39,18 @@ to the tesseract model, i have merely peiced different things to make this exten
   </ol>
   
   <h2> How To Use </h2>
-  <style>
-    .image-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 20px;
-    }
-
-    .image-grid img {
-      max-width: 100%;
-    }
-  </style>
   <div style="display: grid; grid-template-columns: repeat(2, 1fr);grid-gap: 20px;">
     <div>
       <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/e0489166-d953-4a97-9d29-d23f7f50af57" alt="Usage Example 1">
     </div>
+ <div style="display:flex">
     <div>
       <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/d503ddee-84ed-4b5c-8dff-79180c7f4763" alt="Usage Example 2">
     </div>
     <div>
       <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/a356ce1b-0009-4bd2-8a42-fde50baea592" alt="Usage Example 3">
     </div>
+ </div>
     <div>
       <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/1de1ee47-c136-41be-b53e-8222a04d6abd" alt="Usage Example 4">
     </div>
