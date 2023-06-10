@@ -45,10 +45,10 @@ to the tesseract model, i have merely peiced different things to make this exten
     </div>
  <div style="display:flex">
     <div>
-      <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/d503ddee-84ed-4b5c-8dff-79180c7f4763" alt="Usage Example 2">
+      <img style="max-width: 50%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/d503ddee-84ed-4b5c-8dff-79180c7f4763" alt="Usage Example 2">
     </div>
     <div>
-      <img style="max-width: 100%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/a356ce1b-0009-4bd2-8a42-fde50baea592" alt="Usage Example 3">
+      <img style="max-width: 50%;" src="https://github.com/ahmedHanzala/chrome-ocr/assets/105395393/a356ce1b-0009-4bd2-8a42-fde50baea592" alt="Usage Example 3">
     </div>
  </div>
     <div>
