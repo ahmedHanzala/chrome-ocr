@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chromo Lib">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ScreenShot Tool</title>
+    <script src="/js/tesseract.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="menu">
+        <button type="button" id="btn-partial" class="select-area-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0.9" width="20" height="20"
+                 fill="none" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1}
+                      d="M24 22h-24v-20h24v20zm-23-9v8h10v-8h-10zm22 8v-18h-22v9h11v9h11zm-4-9h-5v-5h1v3.241l5.241-5.241.759.759-5.241 5.241h3.241v1z"/>
+            </svg>
+            Select Non-copyable Text
+        </button>
+        <button type="button" id="btn-fullpage"
+                class="menu-item visible-area-btn mb-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" stroke-width="1.2" fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3}
+                      d="M12.015 7c4.751 0 8.063 3.012 9.504 4.636-1.401 1.837-4.713 5.364-9.504 5.364-4.42 0-7.93-3.536-9.478-5.407 1.493-1.647 4.817-4.593 9.478-4.593zm0-2c-7.569 0-12.015 6.551-12.015 6.551s4.835 7.449 12.015 7.449c7.733 0 11.985-7.449 11.985-7.449s-4.291-6.551-11.985-6.551zm-.015 7l-3.36-2.171c-.405.625-.64 1.371-.64 2.171 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-.742 0-1.438.202-2.033.554l2.033 3.446z"/>
+            </svg>
+            Capture Entire Tab
+        </button>
+    </div>
+</div>
+<div class="container disp-none mt-10">
+    <span>
+      <svg class="svg" width="26" fill="none" stroke="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+      </svg>
+    </span>
+    <p>Extension doesn't have permission to take screenshot.</p>
+</div>
+<div class="lds-dual-ring disp-none"></div>
+
+<script src="js/popup.js"></script>
+</body>
+
+</html>
